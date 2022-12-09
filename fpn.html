@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Natação</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="icone.ico">
+
+        <style>
+            body{
+                width: 1000px;
+                margin: 0 auto;
+                background-color: #f0f0f0;
+                font-family: Helvetica,Arial,Sans-Serif;
+                font-size: 15px;
+            }
+
+            .banner{
+                background-image: url('Imagens/fpn.jpg');
+                color: white;
+                padding: 5px 30px;
+                font-size: 35px;
+                font-weight: bold;
+                font-family: verdana;
+                -webkit-text-stroke-width: 3px;
+                -webkit-text-stroke-color: #1C1C1C;
+                text-align: center;
+            }
+
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            li{
+                float: left;
+            }
+
+            li a{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+            li a:hover{
+                background-color: #1C1C1C;
+            }
+
+            li a, .dropbtn{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover, .dropdown:hover .dropbtn{
+                background-color: #111;
+            }
+
+            nav{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+            }
+            
+            .dropdown{
+                display: inline-block;
+            }
+
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: #00008B;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+
+            .dropdown-content a{
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover{background-color: #1C1C1C}
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+
+            section{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+                
+            }
+
+            header{
+                color: white;
+            }
+
+            article{
+                background-color: white;
+                margin-top: 5px;
+                padding: 10px 15px;
+            }
+
+
+            main{
+                width: 1000px;
+                float: left;
+                margin-bottom: 10px;
+            }
+
+            aside{
+                background-color: #bbbbbb;
+                width: 220px;
+                height: 620px;
+                float: right;
+                text-align: center;
+                padding: 20px;
+                margin-top: 10px;
+            }
+
+            footer{
+                clear: both;
+                background-color: #1C1C1C;
+                color: white;
+                padding: 5px 20px;
+            }
+
+            h3{
+                padding-left: 6px;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="banner"> 
+            <h1>FPN</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Página Inicial</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Estilos</a>
+                    <div class="dropdown-content">
+                        <a href="crawl.html">Crawl</a>
+                        <hr>
+                        <a href="costas.html">Costas</a>
+                        <hr>
+                        <a href="brucos.html">Bruços</a>
+                        <hr>
+                        <a href="mariposa.html">Mariposa</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Modalidades</a>
+                    <div class="dropdown-content">
+                        <a href="natacao_pura.html">Natação Pura</a>
+                        <hr>
+                        <a href="polo_aquatico.html">Polo Aquático</a>
+                        <hr>
+                        <a href="natacao_artistica.html">Natação Artística</a>
+                        <hr>
+                        <a href="natacao_adaptada.html">Natação Adaptada</a>
+                        <hr>
+                        <a href="aguas_abertas.html">Águas Abertas</a>
+                        <hr>
+                        <a href="saltos.html">Saltos</a>
+                    </div>
+                <li class="dropdown">
+                    <a href="" class="dropbtn">Campeões</a>
+                    <div class="dropdown-content">
+                        <a href="michael_phelps.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Michael Phelps</a>
+                        <hr>
+                        <a href="caeleb_dressel.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Caeleb Dressel</a>
+                        <hr>
+                        <a href="cesar_ciello.html"><img src="Imagens/brasil.jpg" height="12" width="14">  César Cielo</a>
+                        <hr>
+                        <a href="emma_mckeon.html"><img src="Imagens/australia.jpg" height="12" width="14">  Emma McKeon</a>
+                        <hr>
+                        <a href="katinka_hosszu.html"><img src="Imagens/hungria.jpg" height="12" width="14">  Katinka Hosszú</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="fpn.html">FPN</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Federação Portuguesa de Natação</h3>
+                </header>
+                <article>
+                    <p>
+                        <a href="https://www.google.pt/maps/place/Federação+Portuguesa+de+Natação/@38.7048308,-9.2546135,17z/data=!3m1!4b1!4m5!3m4!1s0xd1ecb841badca17:0x3477f02e6d875cbe!8m2!3d38.704823!4d-9.2524376?hl=pt-PT" target="_blak" style="color: black;"><b>LOCALIZAÇÃO</b></a>
+                        <br>
+                            <br>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49804.97375864029!2d-9.229383479182154!3d38.722151242305465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ecb841badca17%3A0x3477f02e6d875cbe!2zRmVkZXJhw6fDo28gUG9ydHVndWVzYSBkZSBOYXRhw6fDo28!5e0!3m2!1spt-PT!2spt!4v1647792537173!5m2!1spt-PT!2spt" width="960" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <br>
+                            <br>
+                        <a href="https://www.google.pt/maps/place/Federação+Portuguesa+de+Natação/@38.7048308,-9.2546135,17z/data=!3m1!4b1!4m5!3m4!1s0xd1ecb841badca17:0x3477f02e6d875cbe!8m2!3d38.704823!4d-9.2524376?hl=pt-PT" target="_blank" style="color: black;"><b><u>MORADA</u></b></a>
+                        <br>
+                        Estr. da Costa, 1495-688 Cruz Quebrada
+                        <br>
+                            <br>
+                        <b><u>EMAIL</u></b>
+                        <br>
+                        secretaria@fpnatacao.pt
+                        <br>
+                            <br>
+                        <b><u>TELEFONE</u></b>
+                        <br>
+                        214158190/1
+                        <br>
+                            <br>
+                        <a href="https://fpnatacao.pt/index.php" target="_blank" style="color: black;"><b><u>SITE OFICIAL</u></b></a>
+                        <br>
+                        <a href="https://fpnatacao.pt/index.php" target="_blank" style="color: black; text-decoration: none;">https://fpnatacao.pt/index.php</a>
+                        <br>
+                            <br>
+                        <img src="Imagens/instagram.png" height="15" width="14"><a href="https://www.instagram.com/fpnatacao/" target="_blank" style="color: black; text-decoration: none;"> fpnatacao</a>
+                        <br>
+                            <br>
+                        <img src="Imagens/facebook.png" height="15" width="14"><a href="https://www.facebook.com/fpnatacao1930/" target="_blank" style="color: black; text-decoration: none;"> Federação Portuguesa de Natação</a>
+                        <br>
+                            <br>
+                        <img src="Imagens/twitter.png" height="15" width="14"><a href="https://twitter.com/fpnatacao" target="_blank" style="color: black; text-decoration: none;"> fpnatacao</a>
+                        <br>
+                            <br>
+                        <img src="Imagens/youtube.jpg" height="15" width="14"><a href="https://www.youtube.com/user/fpnatacao" target="_blank" style="color: black; text-decoration: none;"> Federação Portuguesa de Natação</a>
+                    </p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>&copy Website desenvolvido por: André Campos - 11ºD</p>
+            <p>Caso pretenda mais informações relativamente a este desporto, o <a href="https://fpnatacao.pt" target="_blank" style="color: white;text-decoration: underline;"><b>site oficial da FPN</b></a> será o melhor sítio para tirar as suas dúvidas.</p>
+        </footer>
+
+    </body>
+</html>

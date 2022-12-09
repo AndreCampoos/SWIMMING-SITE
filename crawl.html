@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Natação</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="icone.ico">
+
+        <style>
+            body{
+                width: 1000px;
+                margin: 0 auto;
+                background-color: #f0f0f0;
+                font-family: Helvetica,Arial,Sans-Serif;
+                font-size: 15px;
+            }
+
+            .banner{
+                background-image: url('Imagens/crawl.jpg');
+                color: white;
+                padding: 5px 30px;
+                font-size: 35px;
+                font-weight: bold;
+                font-family: verdana;
+                -webkit-text-stroke-width: 3px;
+                -webkit-text-stroke-color: #1C1C1C;
+                text-align: center;
+            }
+
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            li{
+                float: left;
+            }
+
+            li a{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+            li a:hover{
+                background-color: #1C1C1C;
+            }
+
+            li a, .dropbtn{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover, .dropdown:hover .dropbtn{
+                background-color: #111;
+            }
+
+            nav{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+            }
+            
+            .dropdown{
+                display: inline-block;
+            }
+
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: #00008B;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+
+            .dropdown-content a{
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover{background-color: #1C1C1C}
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+
+            section{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+                
+            }
+
+            header{
+                color: white;
+            }
+
+            article{
+                background-color: white;
+                margin-top: 5px;
+                padding: 10px 15px;
+            }
+
+            main{
+                width: 1000px;
+                float: left;
+                margin-bottom: 10px;
+            }
+
+            aside{
+                background-color: #bbbbbb;
+                width: 220px;
+                height: 620px;
+                float: right;
+                text-align: center;
+                padding: 20px;
+                margin-top: 10px;
+            }
+
+            footer{
+                clear: both;
+                background-color: #1C1C1C;
+                color: white;
+                padding: 5px 20px;
+            }
+
+            h3{
+                padding-left: 6px;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="banner"> 
+            <h1>Crawl</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Página Inicial</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Estilos</a>
+                    <div class="dropdown-content">
+                        <a href="crawl.html">Crawl</a>
+                        <hr>
+                        <a href="costas.html">Costas</a>
+                        <hr>
+                        <a href="brucos.html">Bruços</a>
+                        <hr>
+                        <a href="mariposa.html">Mariposa</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Modalidades</a>
+                    <div class="dropdown-content">
+                        <a href="natacao_pura.html">Natação Pura</a>
+                        <hr>
+                        <a href="polo_aquatico.html">Polo Aquático</a>
+                        <hr>
+                        <a href="natacao_artistica.html">Natação Artística</a>
+                        <hr>
+                        <a href="natacao_adaptada.html">Natação Adaptada</a>
+                        <hr>
+                        <a href="aguas_abertas.html">Águas Abertas</a>
+                        <hr>
+                        <a href="saltos.html">Saltos</a>
+                    </div>
+                <li class="dropdown">
+                    <a href="" class="dropbtn">Campeões</a>
+                    <div class="dropdown-content">
+                        <a href="michael_phelps.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Michael Phelps</a>
+                        <hr>
+                        <a href="caeleb_dressel.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Caeleb Dressel</a>
+                        <hr>
+                        <a href="cesar_ciello.html"><img src="Imagens/brasil.jpg" height="12" width="14">  César Cielo</a>
+                        <hr>
+                        <a href="emma_mckeon.html"><img src="Imagens/australia.jpg" height="12" width="14">  Emma McKeon</a>
+                        <hr>
+                        <a href="katinka_hosszu.html"><img src="Imagens/hungria.jpg" height="12" width="14">  Katinka Hosszú</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="fpn.html">FPN</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <header>
+                    <h3>O que é?</h3>
+                </header>
+                <article>
+                    <p>
+                        O estilo Crawl é um dos quatro estilos da natação. Este é o mais rápido de nadar e, por isso, é também o mais utilizado
+                        e consiste em nadar de barriga para baixo, a bater os pés e a dar braçadas alternadamente. O Crawl também é conhecido como estilo livre e é,
+                        normalmente, o primeiro estilo que os nadadores aprendem.
+                        <br>
+                            <br>
+                    <div>
+                        <img src="Imagens/crawl1.jpg" style="float: right; width: 350px; height: 250px; border-radius: 5px;">
+                    </div>
+                        <b>Origem</b>
+                        <br>
+                        Embora o estilo Crawl já seja praticado antes dos tempos modernos, o seu desenvolvimento atual é devido ao britânico John Arthur Trudgen, que, por voltta de 1870,
+                        o terá adaptado após observar a forma de nadar dos americanos.
+                        <br>
+                        Antigamente, o crawl costumava utilizar o mesmo braço, o que aumentava o nível de cansaço do nadador e uma menor velocidade na deslocação. Foi apenas em 1906, na Europa,
+                        que este estilo passou a ser praticado com duas braçadas alternadas e com o batimento vertical das pernas.
+                        <br>
+                            <br>
+                        <b>Respiração</b>
+                        <br>
+                        Normalmente a respiração é efetuada sempre para o mesmo lado, após cada duas braçadas alternadas.
+                        <br>
+                        Caso a respiração seja feita a cada três braçadas, o chamado "crawl bilateral", é realizada alternadamente para ambos os lados.
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Vídeo explicativo - Como nadar Crawl?</h3>
+                </header>
+                <article>
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/IAKD5RIZBds" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 960px; height: 470px;"></iframe>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Viragem ou Cambalhota</h3>
+                </header>
+                <article>
+                    <p>
+                        A viragem no estilo crawl, é realizada através de uma cambalhota.
+                        <br>
+                        O nadador, ao aproximar-se da parede de viragem, roda o seu corpo num movimento descendente, com o objetivo de dar uma cambalhota, tocando com os dois pés na parede
+                        e dando o impulso. 
+                        <br>
+                            <br>
+                        A viragem  permite ao nadador inverter o nado e seguir na direção oposta.
+                        <br>
+                            <br>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Gu7S7LvXtR8" title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 960px; height: 470px;"></iframe>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy Website desenvolvido por: André Campos - 11ºD</p>
+            <p>Caso pretenda mais informações relativamente a este desporto, o <a href="https://fpnatacao.pt" target="_blank" style="color: white;text-decoration: underline;"><b>site oficial da FPN</b></a> será o melhor sítio para tirar as suas dúvidas.</p>
+        </footer>
+
+    </body>
+</html>

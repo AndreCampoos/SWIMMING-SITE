@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Natação</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="icone.ico">
+        
+        <style>
+            body{
+                width: 1000px;
+                margin: 0 auto;
+                background-color: #f0f0f0;
+                font-family: Helvetica,Arial,Sans-Serif;
+                font-size: 15px;
+            }
+
+            .banner{
+                background-image: url('Imagens/natacao_pura.jpg');
+                color: white;
+                padding: 5px 30px;
+                font-size: 35px;
+                font-weight: bold;
+                font-family: verdana;
+                -webkit-text-stroke-width: 3px;
+                -webkit-text-stroke-color: #1C1C1C;
+                text-align: center;
+            }
+
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            li{
+                float: left;
+            }
+
+            li a{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+            li a:hover{
+                background-color: #1C1C1C;
+            }
+
+            li a, .dropbtn{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover, .dropdown:hover .dropbtn{
+                background-color: #111;
+            }
+
+            nav{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+            }
+            
+            .dropdown{
+                display: inline-block;
+            }
+
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: #00008B;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+
+            .dropdown-content a{
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover{background-color: #1C1C1C}
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+
+            section{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+                
+            }
+
+            header{
+                color: white;
+            }
+
+            article{
+                background-color: white;
+                margin-top: 5px;
+                padding: 10px 15px;
+            }
+
+
+            main{
+                width: 1000px;
+                float: left;
+                margin-bottom: 10px;
+            }
+
+            aside{
+                background-color: #bbbbbb;
+                width: 220px;
+                height: 620px;
+                float: right;
+                text-align: center;
+                padding: 20px;
+                margin-top: 10px;
+            }
+
+            footer{
+                clear: both;
+                background-color: #1C1C1C;
+                color: white;
+                padding: 5px 20px;
+            }
+
+            h3{
+                padding-left: 6px;
+            }
+
+            ul.a{
+                list-style-type: disc;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="banner"> 
+            <h1>Natação Pura</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Página Inicial</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Estilos</a>
+                    <div class="dropdown-content">
+                        <a href="crawl.html">Crawl</a>
+                        <hr>
+                        <a href="costas.html">Costas</a>
+                        <hr>
+                        <a href="brucos.html">Bruços</a>
+                        <hr>
+                        <a href="mariposa.html">Mariposa</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Modalidades</a>
+                    <div class="dropdown-content">
+                        <a href="natacao_pura.html">Natação Pura</a>
+                        <hr>
+                        <a href="polo_aquatico.html">Polo Aquático</a>
+                        <hr>
+                        <a href="natacao_artistica.html">Natação Artística</a>
+                        <hr>
+                        <a href="natacao_adaptada.html">Natação Adaptada</a>
+                        <hr>
+                        <a href="aguas_abertas.html">Águas Abertas</a>
+                        <hr>
+                        <a href="saltos.html">Saltos</a>
+                    </div>
+                <li class="dropdown">
+                    <a href="" class="dropbtn">Campeões</a>
+                    <div class="dropdown-content">
+                        <a href="michael_phelps.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Michael Phelps</a>
+                        <hr>
+                        <a href="caeleb_dressel.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Caeleb Dressel</a>
+                        <hr>
+                        <a href="cesar_ciello.html"><img src="Imagens/brasil.jpg" height="12" width="14">  César Cielo</a>
+                        <hr>
+                        <a href="emma_mckeon.html"><img src="Imagens/australia.jpg" height="12" width="14">  Emma McKeon</a>
+                        <hr>
+                        <a href="katinka_hosszu.html"><img src="Imagens/hungria.jpg" height="12" width="14">  Katinka Hosszú</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="fpn.html">FPN</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <header>
+                    <h3>O que é a natação pura?</h3>
+                </header>
+                <article>
+                    <p>
+                        <div>
+                            <img src="Imagens/pura.jpg" style="float: right; width: 170px; height: 235px; padding-left: 10px; border-radius: 5px;">
+                        </div>
+                        A natação pura, também conhecida por natação desportiva, é a prática da natação de competição em piscina, envolvendo os 4 estilos (crawl, bruços, costas e mariposa).
+                        <br>
+                        A natação pura insere-se nos desportos aquáticos e faz parte dos Jogos Olímpicos modernos desde o seu ínicio em 1896. Este desporto é administrado pela FINA (Federação Internacional de Natação), juntamente com as outras modalidades aquáticas.
+                        <br>
+                            <br>
+                        <b>Competição</b>
+                        <br>
+                        O objetivo da natação pura é determinar qual é o nadador mais rápido em uma determinada distância.
+                        <br>
+                        Esta modalidade, que se tornou popular no século XIX, contém 36 provas individuais (18 masculinas e 18 femininas), porém o Comité Olímpico Internacional (COI) só reconhece 34 dessas provas (17 masculinas e 17 femininas).
+                        <br>
+                        A natação pura é uma modalidade dos Jogos Olímpicos de Verão, onde atletas de ambos os sexos competem em 16 das provas reconhecidas pelo COI.
+                        <br>
+                        As competições olímpicas realizam-se em piscinas de 50 metros.
+                        <br>
+                            <br>
+                                <br>
+                        <div>
+                            <img src="Imagens/pura2.jpg" style="float: left; padding-right: 10px; width: 500px; height: 300px; border-radius: 5px;">
+                        </div>
+                        <br>
+                        As piscinas oficiais de competição podem ser de 25 ou 50 metros de comprimento. Estas têm de ter 8 pistas com 2,5 metros de largura cada uma e com um espaço extra com pelo menos 20 cm ao lado de cada uma das pistas laterais.
+                        <br>
+                        A profundidade da piscina deve ser igual ou superior  a 1,35 metros. A água deve estar entre 25ºC e 28ºC em competições, não sendo contados quaisquer recordes caso a temperatura da água seja inferior ou superior a estes valores. 
+                        <br>
+                            <br>
+                        <b>Benefícios da natação</b>
+                        <br>
+                        A prática de natação é considerado um dos melhores exercícios físicos existentes, uma vez que exige a movimentação e o esforço de grande parte dos músculos e articulações, sem exercer peso sobre o corpo,
+                        devido ao efeito da água. A natação é ideal para quem tem problemas de ossos, da columa e respiratórios, como a asma e é recomendado para bebés e crianças.
+                        <br>
+                            <br>
+                        Uma hora de natação equivale à perda de aproximadamente 600 calorias, fortalecendo os músculos e melhorando a coordenação motora. Além dos benefícios físicos, oferece também um relaxamento e oxigenação do cérebro,
+                        combatendo o stress e ativando a memória.
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Materiais necessários</h3>
+                </header>
+                <article>
+                    <p>
+                        Para a prática desta modalidade, os equipamentos necessários são uma touca, uns óculos de natação próprios para ver debaixo de água, uns calções de licra para o sexo
+                        masculino e fato de banho para o sexo feminino e uns chinelos, para podermos andar nos balneários e no perímetro da piscina sem qualquer preocupação.
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Vídeo demonstrativo sobre natação pura</h3>
+                </header>
+                <article>
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/9xAxYxRv-xw" title="YouTube video player" frameborder="0" allow="accelerometer; 
+                        autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 960px; height: 470px;"></iframe>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy Website desenvolvido por: André Campos - 11ºD</p>
+            <p>Caso pretenda mais informações relativamente a este desporto, o <a href="https://fpnatacao.pt" style="color: white;text-decoration: underline;"><b>site oficial da FPN</b></a> será o melhor sítio para tirar as suas dúvidas.</p>
+        </footer>
+
+    </body>
+</html>

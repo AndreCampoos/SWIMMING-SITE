@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Natação</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="icone.ico">
+
+        <style>
+            body{
+                width: 1000px;
+                margin: 0 auto;
+                background-color: #f0f0f0;
+                font-family: Helvetica,Arial,Sans-Serif;
+                font-size: 15px;
+            }
+
+            .banner{
+                background-image: url('Imagens/brucos.jpg');
+                color: white;
+                padding: 5px 30px;
+                font-size: 35px;
+                font-weight: bold;
+                font-family: verdana;
+                -webkit-text-stroke-width: 3px;
+                -webkit-text-stroke-color: #1C1C1C;
+                text-align: center;
+            }
+
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            li{
+                float: left;
+            }
+
+            li a{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+            li a:hover{
+                background-color: #1C1C1C;
+            }
+
+            li a, .dropbtn{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover, .dropdown:hover .dropbtn{
+                background-color: #111;
+            }
+
+            nav{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+            }
+            
+            .dropdown{
+                display: inline-block;
+            }
+
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: #00008B;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+
+            .dropdown-content a{
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover{background-color: #1C1C1C}
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+
+            section{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+                
+            }
+
+            header{
+                color: white;
+            }
+
+            article{
+                background-color: white;
+                margin-top: 5px;
+                padding: 10px 15px;
+            }
+
+            main{
+                width: 1000px;
+                float: left;
+                margin-bottom: 10px;
+            }
+
+            aside{
+                background-color: #bbbbbb;
+                width: 220px;
+                height: 620px;
+                float: right;
+                text-align: center;
+                padding: 20px;
+                margin-top: 10px;
+            }
+
+            footer{
+                clear: both;
+                background-color: #1C1C1C;
+                color: white;
+                padding: 5px 20px;
+            }
+
+            h3{
+                padding-left: 6px;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="banner"> 
+            <h1>Bruços</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Página Inicial</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Estilos</a>
+                    <div class="dropdown-content">
+                        <a href="crawl.html">Crawl</a>
+                        <hr>
+                        <a href="costas.html">Costas</a>
+                        <hr>
+                        <a href="brucos.html">Bruços</a>
+                        <hr>
+                        <a href="mariposa.html">Mariposa</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Modalidades</a>
+                    <div class="dropdown-content">
+                        <a href="natacao_pura.html">Natação Pura</a>
+                        <hr>
+                        <a href="polo_aquatico.html">Polo Aquático</a>
+                        <hr>
+                        <a href="natacao_artistica.html">Natação Artística</a>
+                        <hr>
+                        <a href="natacao_adaptada.html">Natação Adaptada</a>
+                        <hr>
+                        <a href="aguas_abertas.html">Águas Abertas</a>
+                        <hr>
+                        <a href="saltos.html">Saltos</a>
+                    </div>
+                <li class="dropdown">
+                    <a href="" class="dropbtn">Campeões</a>
+                    <div class="dropdown-content">
+                        <a href="michael_phelps.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Michael Phelps</a>
+                        <hr>
+                        <a href="caeleb_dressel.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Caeleb Dressel</a>
+                        <hr>
+                        <a href="cesar_ciello.html"><img src="Imagens/brasil.jpg" height="12" width="14">  César Cielo</a>
+                        <hr>
+                        <a href="emma_mckeon.html"><img src="Imagens/australia.jpg" height="12" width="14">  Emma McKeon</a>
+                        <hr>
+                        <a href="katinka_hosszu.html"><img src="Imagens/hungria.jpg" height="12" width="14">  Katinka Hosszú</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="fpn.html">FPN</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <header>
+                    <h3>O que é?</h3>
+                </header>
+                <article>
+                    <p>
+                        <div>
+                            <img src="Imagens/brucos2.jpg" style="float: left; width: 350px; height: 240px; padding-right: 10px; border-radius: 5px;">
+                        </div>
+                        Bruços é um dos quatro estilos de nado existentes na natação.
+                        <br>
+                        As provas de bruços masculinas começaram a ser disputadas nos Jogos Olímpicos em 1904, na edição de St. Louis e as femininas em 1924.
+                        <br>
+                            <br>
+                        Neste estilo de nado, o corpo do nadador deve permanecer completamente alongado de barriga para baixo e os dois ombros paralelos ao nível da água, com os movimentos de pernas e braços sincronizados e simultâneos,
+                        sem movimentos alternados. Caso o nadador perca a sicronização, considera-se que está a nadar em estilo livre e é imediatamente desqualificado.
+                        <br>
+                            <br>
+                        Atualmente, nos Jogos Olímpicos existem provas de 100 e 200 metros do estilo bruços.
+                        <br>
+                        Este estilo também integra as provas de 200 e 400 metros estilos (um atleta nada os 4 estilos na sequência mariposa > costas > bruços > crawl) e as estafetas de 4 x 100 metos estilos (cada um dos 4 atletas nada um estilo diferente).
+                        <br>
+                            <br>
+                        No nado bruços não existe a cambalhota como no nado crawl e costas, sendo assim, a viragem é realizada com o toque do nadador na parede e retornando o nado.
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Vídeo explicativo - Como nadar Bruços?</h3>
+                </header>
+                <article>
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/sBcmQI_6Yos" title="YouTube video player" frameborder="0" allow="accelerometer; 
+                        autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 960px; height: 470px;"></iframe>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy Website desenvolvido por: André Campos - 11ºD</p>
+            <p>Caso pretenda mais informações relativamente a este desporto, o <a href="https://fpnatacao.pt" target="_blank" style="color: white;text-decoration: underline;"><b>site oficial da FPN</b></a> será o melhor sítio para tirar as suas dúvidas.</p>
+        </footer>
+
+    </body>
+</html>

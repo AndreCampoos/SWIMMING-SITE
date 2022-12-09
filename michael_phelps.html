@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Natação</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="icone.ico">
+
+        <style>
+            body{
+                width: 1000px;
+                margin: 0 auto;
+                background-color: #f0f0f0;
+                font-family: Helvetica,Arial,Sans-Serif;
+                font-size: 15px;
+            }
+
+            .banner{
+                background-image: url('Imagens/phelps.jpg');
+                color: white;
+                padding: 5px 30px;
+                font-size: 35px;
+                font-weight: bold;
+                font-family: verdana;
+                -webkit-text-stroke-width: 3px;
+                -webkit-text-stroke-color: #1C1C1C;
+                text-align: center;
+            }
+
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            li{
+                float: left;
+            }
+
+            li a{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+            li a:hover{
+                background-color: #1C1C1C;
+            }
+
+            li a, .dropbtn{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover, .dropdown:hover .dropbtn{
+                background-color: #111;
+            }
+
+            nav{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+            }
+            
+            .dropdown{
+                display: inline-block;
+            }
+
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: #00008B;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+
+            .dropdown-content a{
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover{background-color: #1C1C1C}
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+
+            section{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+                
+            }
+
+            header{
+                color: white;
+            }
+
+            article{
+                background-color: white;
+                margin-top: 5px;
+                padding: 10px 15px;
+            }
+
+
+            main{
+                width: 1000px;
+                float: left;
+                margin-bottom: 10px;
+            }
+
+            aside{
+                background-color: #bbbbbb;
+                width: 220px;
+                height: 620px;
+                float: right;
+                text-align: center;
+                padding: 20px;
+                margin-top: 10px;
+            }
+
+            footer{
+                clear: both;
+                background-color: #1C1C1C;
+                color: white;
+                padding: 5px 20px;
+            }
+
+            h3{
+                padding-left: 6px;
+            }
+
+            table, td, th{
+                border: 1px solid black;
+            }
+
+            table{
+                width: 960px;
+                border-collapse: collapse;
+            }
+
+            th{
+                height: 40px;
+                width: 300px;
+                color: white;
+                background-color: #00008B;
+            }
+
+            tr:hover{
+                background-color: #00008B;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="banner"> 
+            <h1>Michael Phelps</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Página Inicial</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Estilos</a>
+                    <div class="dropdown-content">
+                        <a href="crawl.html">Crawl</a>
+                        <hr>
+                        <a href="costas.html">Costas</a>
+                        <hr>
+                        <a href="brucos.html">Bruços</a>
+                        <hr>
+                        <a href="mariposa.html">Mariposa</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Modalidades</a>
+                    <div class="dropdown-content">
+                        <a href="natacao_pura.html">Natação Pura</a>
+                        <hr>
+                        <a href="polo_aquatico.html">Polo Aquático</a>
+                        <hr>
+                        <a href="natacao_artistica.html">Natação Artística</a>
+                        <hr>
+                        <a href="natacao_adaptada.html">Natação Adaptada</a>
+                        <hr>
+                        <a href="aguas_abertas.html">Águas Abertas</a>
+                        <hr>
+                        <a href="saltos.html">Saltos</a>
+                    </div>
+                <li class="dropdown">
+                    <a href="" class="dropbtn">Campeões</a>
+                    <div class="dropdown-content">
+                        <a href="michael_phelps.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Michael Phelps</a>
+                        <hr>
+                        <a href="caeleb_dressel.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Caeleb Dressel</a>
+                        <hr>
+                        <a href="cesar_ciello.html"><img src="Imagens/brasil.jpg" height="12" width="14">  César Cielo</a>
+                        <hr>
+                        <a href="emma_mckeon.html"><img src="Imagens/australia.jpg" height="12" width="14">  Emma McKeon</a>
+                        <hr>
+                        <a href="katinka_hosszu.html"><img src="Imagens/hungria.jpg" height="12" width="14">  Katinka Hosszú</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="fpn.html">FPN</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Biografia</h3>
+                </header>
+                <article>
+                    <p>
+                        <div>
+                            <img src="Imagens/Michael_Phelps.jpg" style="float: right; height: 260px; width: 200px; border-radius: 5px;">
+                        </div>
+                        Michael Fred Phelps nasceu na cidade de Baltimore, nos Estados Unidos, no dia 30 de junho de 1985 (36 anos).
+                        <br>
+                        O atleta estudou Marketing Desportivo na Universidade de Michigan.
+                        <br>
+                        <br>
+                        Considerado o melhor nadador do mundo, Phelps foi o maior medalhista olímpico da história, conquistando o recorde ao ganhar 8 medalhas de ouro em apenas uma olímpiada.
+                        <br>
+                        Durante a sua carreira, este acumulou 65 medalhas de ouro, 14 de prata e 3 de bronze em grandes competições, o que dá um total de 82 madalhas ganhas durante a sua carreira. O nadador deixou a natação oficialmente em 2016, após os Jogos Olímpicos do Rio de Janeiro, Brasil.
+                        <br>
+                        <br>
+                        Michael Phelps começou a nadar com cinco anos de idade inspirado pelas suas irmãs mais velhas. Whitney, uma das irmãs, chegou a ser nadadora profissional e quase se qualificou para os Jogos Olímpicos de Atlanta, porém, viu-se obrigada a encerrar a sua carreira devido a lesões.
+                        <br>
+                        Em várias entrevistas, o nadador já referiu que as piscinas serviam como forma de distração para os seus problemas pessoais, como por exemplo, as discussões dos seus pais, que se separaram quando tinha 9 anos de idade.
+                        <br>
+                            <br>
+                                <br>
+                        <div>
+                            <img src="Imagens/phelps2.jpg" style="float: left; width: 370px; height: 240px; padding-right: 10px; border-radius: 5px;">
+                        </div>
+                        Apenas com 10 anos de idade, Phelps começou a destacar-se como nadador, ao bater o recorde nacional dos 100 metros Mariposa num campeonato juvenil. A partir daí, começou a treinar no clube North Baltimore Aquatic, no qual o seu treinador Bob Bowman acompanhou-o durante o resto da sua carreira.
+                        <br>
+                        <br>
+                        Michael Phelps foi o nadador do ano 4 vezes durante o seu percurso.
+                        <br>
+                        Aos 15 anos de idade, qualificou-se para os Jogos Olímpicos de Sydney, onde bateu o recorde mundial. Em 2004, participou nos Jogos de Atenas, onde ganhou 8 medalhas. Em 2008, competiu nos Jogos de Pequim e ganhou 8 medalhas de ouro,  ultrapassando outro recorde, que era do nadador alemão Mark Spitz, que tinha ganho 7 medalhas até então.
+                        <br>
+                        <br>
+                        Phelps também ganhou 4 medalhas de ouro em outras 5 competições mundiais: em Barcelona (2003), Montreal (2005), Melbourne (2007), Roma (2009) e Xangai (2011)
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Principais consquistas olímpicas</h3>
+                </header>
+                <article>
+                    <p>
+                        <b>Sydney, 2000</b>
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Evento</th>
+                            <th>Resultado</th>
+                            <th>Tempo</th>
+                        </tr>
+                        <tr>
+                            <td>200 Metros Mariposa</td>
+                            <td> 5º Lugar</td>
+                            <td>1:56:50</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                    <p>
+                        <b>Atenas, 2004</b>
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Evento</th>
+                            <th>Resultado</th>
+                            <th>Tempo</th>
+                        </tr>
+                        <tr>
+                            <td>400 Metros Estilos Masculino</td>
+                            <td>&#129351 Medalha de Ouro, Recorde Mundial</td>
+                            <td>4:08:26</td>
+                        </tr>
+                        <tr>
+                            <td>100 Metros Mariposa</td>
+                            <td>&#129351 Medalha de Ouro, Recorde Mundial</td>
+                            <td>51:25</td>
+                        </tr>
+                        <tr>
+                            <td>200 Metros Livres</td>
+                            <td>&#129353 Medalha de Bronze, Recorde Americano</td>
+                            <td>1:45:32</td>
+                        </tr>
+                        <tr>
+                            <td>200 Metros Mariposa</td>
+                            <td>&#129351 Medalha de Ouro, Recorde Olímpico</td>
+                            <td>1:54:04</td>
+                        </tr>
+                        <tr>
+                            <td>200 Metros Medley Masculino</td>
+                            <td>&#129351 Medalha de Ouro, Recorde Olímpico</td>
+                            <td>1:57:14</td>
+                        </tr>
+                        <tr>
+                            <td>4 x 100 Metros Livres</td>
+                            <td>&#129353 Medalha de Bronze</td>
+                            <td>3:14:62</td>
+                        </tr>
+                        <tr>
+                            <td>4 x 200 Metros Livres</td>
+                            <td>&#129351 Medalha de Ouro, Recorde Americano</td>
+                            <td>7:07:33</td>
+                        </tr>
+                        <tr>
+                            <td>4 x 100 Metros Estilos</td>
+                            <td>&#129351 Medalha de Ouro, Recorde Mundial</td>
+                            <td>3:30:68</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                    <p>
+                        <b>Pequim, 2008</b>
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Evento</th>
+                            <th>Resultado</th>
+                            <th>Tempo</th>
+                        </tr>
+                        <tr>
+                            <td>400 Metros Estilos Masculino</td>
+                            <td>&#129351 Medalha de Ouro, Recorde Mundial</td>
+                            <td>4:03:84</td>
+                        </tr>
+                        <tr>
+                            <td>400 x 100 Metros Livres Masculino</td>
+                            <td>&#129351 Medalha de Ouro, Recorde Mundial</td>
+                            <td>3:08:24</td>
+                        </tr>
+                        <tr>
+                            <td>200 Metros Livres Masculino</td>
+                            <td>&#129351 Medalha de Ouro, Recorde Mundial</td>
+                            <td>1:42:96</td>
+                        </tr>
+                        <tr>
+                            <td>200 Metros Mariposa Masculino</td>
+                            <td>&#129351 Medalha de Ouro, Recorde Mundial</td>
+                            <td>1:52:03</td>
+                        </tr>
+                        <tr>
+                            <td>4 x 200 Metros Livres Masculino</td>
+                            <td>&#129351 Medalha de Ouro, Recorde Mundial</td>
+                            <td>6:58:56</td>
+                        </tr>
+                        <tr>
+                            <td>200 Metros Estilos Masculino</td>
+                            <td>&#129351 Medalha de Ouro, Recorde Mundial</td>
+                            <td>1:54:23</td>
+                        </tr>
+                        <tr>
+                            <td>100 Metros Mariposa Masculinos</td>
+                            <td>&#129351 Medalha de Ouro, Recorde Olímpico</td>
+                            <td>50:58</td>
+                        </tr>
+                        <tr>
+                            <td>4 x 100 Metros Estilos Masculino</td>
+                            <td>&#129351 Medalha de Ouro, Recorde Mundial</td>
+                            <td>3:29:34</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                    <p>
+                        <b>Londres, 2012</b>
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Evento</th>
+                            <th>Resultado</th>
+                            <th>Tempo</th>
+                        </tr>
+                        <tr>
+                            <td>4 x 100 Metros Estilos</td>
+                            <td>&#129351 Medalha de Ouro</td>
+                            <td>3:29:38</td>
+                        </tr>
+                        <tr>
+                            <td>200 Metros Mariposa</td>
+                            <td>&#129352 Medalha de Prata</td>
+                            <td>1:53:01</td>
+                        </tr>
+                        <tr>
+                            <td>4 x 200 Metros Livres</td>
+                            <td>&#129351 Medalha de Ouro</td>
+                            <td>6:59:70</td>
+                        </tr>
+                        <tr>
+                            <td>200 Metros Estilos</td>
+                            <td>&#129351 Medalha de Ouro</td>
+                            <td>1:54:27</td>
+                        </tr>
+                        <tr>
+                            <td>100 Metros Mariposa</td>
+                            <td>&#129351 Medalha de Ouro</td>
+                            <td>0:51:21</td>
+                        </tr>
+                        <tr>
+                            <td>4 x 100 Metros Livres</td>
+                            <td>&#129352 Medalha de Prata</td>
+                            <td>3:10:32</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                    <p>
+                        <b>Rio de Janeiro, 2016</b>
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Evento</th>
+                            <th>Resultado</th>
+                            <th>Tempo</th>
+                        </tr>
+                        <tr>
+                            <td>4 x 100 Metros Livres</td>
+                            <td>&#129351 Medalha de Ouro</td>
+                            <td>3:09:92</td>
+                        </tr>
+                        <tr>
+                            <td>4 x 200 Metros Livres</td>
+                            <td>&#129351 Medalha de Ouro</td>
+                            <td>7:00:66</td>
+                        </tr>
+                        <tr>
+                            <td>200 Metros Mariposa</td>
+                            <td>&#129351 Medalha de Ouro</td>
+                            <td>1:53:36</td>
+                        </tr>
+                        <tr>
+                            <td>200 Metros Estilos</td>
+                            <td>&#129351 Medalha de Ouro</td>
+                            <td>1:54:66</td>
+                        </tr>
+                        <tr>
+                            <td>100 Metros Mariposa</td>
+                            <td>&#129352 Medalha de Prata</td>
+                            <td>0:51:14</td>
+                        </tr>
+                        <tr>
+                            <td>4 x 100 Metros Estilos</td>
+                            <td>&#129351 Medalha de Ouro</td>
+                            <td>3:27:95</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <p>
+                        <b>&copy Todas as teblas acima foram retiradas da Wikipédia.</b>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Galeria de imagens dedicada ao nadador Miachel Phelps</h3>
+                </header>
+                <article>
+                    <p>
+                        <b>Para ver esta galeria <a href="galeriaMP.html" style="text-decoration: none;">clique aqui.</a></b>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Última prova olímpica de Michael Phelps - 4 x 100 Metros Estilos | Rio de Janeiro, 2016</h3>
+                </header>
+                <article>
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/UmIYanq5gH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 960px; height: 470px;"></iframe>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Redes Sociais</h3>
+                </header>
+                <article>
+                    <p>
+                        <img src="Imagens/instagram.png" height="15" width="14"><a href="https://www.instagram.com/m_phelps00/" target="_blank" style="color: black; text-decoration: none;"><b> m_phelps00</b></a>
+                        <br>
+                        <br>
+                        <img src="Imagens/facebook.png" height="15" width="14"><a href="https://pt-pt.facebook.com/michaelphelps" target="_blank" style="color: black; text-decoration: none;"><b> Michael Phelps</b></a>
+                        <br>
+                        <br>
+                        <img src="Imagens/twitter.png" height="15" width="14"><a href="https://twitter.com/michaelphelps" target="_blank" style="color: black; text-decoration: none;"><b> MichaelPhelps</b> </a>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy Website desenvolvido por: André Campos - 11ºD</p>
+            <p>Caso pretenda mais informações relativamente a este desporto, o <a href="https://fpnatacao.pt" style="color: white;text-decoration: underline;"><b>site oficial da FPN</b></a> será o melhor sítio para tirar as suas dúvidas.</p>
+        </footer>
+
+    </body>
+</html>

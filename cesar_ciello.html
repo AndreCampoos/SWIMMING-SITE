@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Natação</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="icone.ico">
+
+        <style>
+            body{
+                width: 1000px;
+                margin: 0 auto;
+                background-color: #f0f0f0;
+                font-family: Helvetica,Arial,Sans-Serif;
+                font-size: 15px;
+            }
+
+            .banner{
+                background-image: url('Imagens/cesar_cielo.jpg');
+                color: white;
+                padding: 5px 30px;
+                font-size: 35px;
+                font-weight: bold;
+                font-family: verdana;
+                -webkit-text-stroke-width: 3px;
+                -webkit-text-stroke-color: #1C1C1C;
+                text-align: center;
+            }
+
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            li{
+                float: left;
+            }
+
+            li a{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+            li a:hover{
+                background-color: #1C1C1C;
+            }
+
+            li a, .dropbtn{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover, .dropdown:hover .dropbtn{
+                background-color: #111;
+            }
+
+            nav{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+            }
+            
+            .dropdown{
+                display: inline-block;
+            }
+
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: #00008B;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+
+            .dropdown-content a{
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover{background-color: #1C1C1C}
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+
+            section{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+                
+            }
+
+            header{
+                color: white;
+            }
+
+            article{
+                background-color: white;
+                margin-top: 5px;
+                padding: 10px 15px;
+            }
+
+
+            main{
+                width: 1000px;
+                float: left;
+                margin-bottom: 10px;
+            }
+
+            aside{
+                background-color: #bbbbbb;
+                width: 220px;
+                height: 620px;
+                float: right;
+                text-align: center;
+                padding: 20px;
+                margin-top: 10px;
+            }
+
+            footer{
+                clear: both;
+                background-color: #1C1C1C;
+                color: white;
+                padding: 5px 20px;
+            }
+
+            h3{
+                padding-left: 6px;
+            }
+
+            table, td, th{
+                border: 1px solid black;
+            }
+
+            table{
+                width: 960px;
+                border-collapse: collapse;
+            }
+
+            th{
+                height: 40px;
+                width: 300px;
+                color: white;
+                background-color: #00008B;
+            }
+
+            tr:hover{
+                background-color: #00008B;
+                color: white;
+            }
+        </style>
+    <head>
+    <body>
+        <header class="banner"> 
+            <h1>César Cielo</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Página Inicial</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Estilos</a>
+                    <div class="dropdown-content">
+                        <a href="crawl.html">Crawl</a>
+                        <hr>
+                        <a href="costas.html">Costas</a>
+                        <hr>
+                        <a href="brucos.html">Bruços</a>
+                        <hr>
+                        <a href="mariposa.html">Mariposa</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Modalidades</a>
+                    <div class="dropdown-content">
+                        <a href="natacao_pura.html">Natação Pura</a>
+                        <hr>
+                        <a href="polo_aquatico.html">Polo Aquático</a>
+                        <hr>
+                        <a href="natacao_artistica.html">Natação Artística</a>
+                        <hr>
+                        <a href="natacao_adaptada.html">Natação Adaptada</a>
+                        <hr>
+                        <a href="aguas_abertas.html">Águas Abertas</a>
+                        <hr>
+                        <a href="saltos.html">Saltos</a>
+                    </div>
+                <li class="dropdown">
+                    <a href="" class="dropbtn">Campeões</a>
+                    <div class="dropdown-content">
+                        <a href="michael_phelps.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Michael Phelps</a>
+                        <hr>
+                        <a href="caeleb_dressel.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Caeleb Dressel</a>
+                        <hr>
+                        <a href="cesar_ciello.html"><img src="Imagens/brasil.jpg" height="12" width="14">  César Cielo</a>
+                        <hr>
+                        <a href="emma_mckeon.html"><img src="Imagens/australia.jpg" height="12" width="14">  Emma McKeon</a>
+                        <hr>
+                        <a href="katinka_hosszu.html"><img src="Imagens/hungria.jpg" height="12" width="14">  Katinka Hosszú</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="fpn.html">FPN</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Biografia</h3>
+                </header>
+                <article>
+                    <p>
+                        César Augusto Cielo Filho nasceu a 10 de janeiro de 1987 (35 anos) em Santa Bárbara D'Oeste, no Rio de Janeiro.
+                        <br>
+                            <br>
+                        Este foi o primeiro nadador brasileiro a conquistar uma medalha de ouro olímpica, nos 50 metros livres dos Jogos Olímpicos de Pequim em 2008. No mundial de natação em Roma no ano de 2009,
+                        ganhou as provas dos 50 e 100 metro livres, batendo o recorde mundial.
+                        <br>
+                            <br>
+                        O único campeão olímpico da natação brasileira tem como principais características a concentração, a explosão física e a competitividade.
+                        <br>
+                            <br>
+                        <div>
+                            <img src="Imagens/cesarcielo.jpg" style="float: left; width: 310px; height: 220px; padding-right: 10px; border-radius: 5px;">
+                        </div>
+                        César Cielo começou a nadar no "Esporte Clube Piracicaba", clube onde a sua mãe dava aulas de natação. Em seguida, foi para o clube de "Campo de Piracicaba" e, em 2003, mudou-se para o "Esporte clube Pinheiros", 
+                        onde treinou com o técnico Alberto Silva e com Gustavo Borges, quatro vezes medalhista olímpico.
+                        <br>
+                        Já no fim de 2005, trocou o Brasil pela Universidade de Auburn, nos Estados Unidos, onde se desenvolveu como atleta e se preparou para os Jogos Olímpicos de Pequim, em 2008.
+                        <br>
+                        O primeiro torneio internacional de Cielo foi o Campeonato Mundial de Natação em Piscina Curta, em Indianopolis, nos Estados Unidos, em 2004, onde conquistou uma medalha de prata nos 4 x 100 metros livres.
+                        <br>
+                            <br>
+                        Nesta mesma competição, o nadador conseguiu conquistar também o 10º lugar nos 50 metros livres, o 6º lugar nos 100 metros livres, o 4º lugar nos 4 x 100 metros estilos e o 19º lugar nos 50 metros costas.
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Principais consquistas olímpicas</h3>
+                </header>
+                <article>
+                    <p>
+                        <b>Pequim, 2008</b>
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Evento</th>
+                            <th>Resultado</th>
+                            <th>Tempo</th>
+                        </tr>
+                        <tr>
+                            <td>50 Metros Livres</td>
+                            <td>&#129351 Medalha de Ouro</td>
+                            <td>21:30</td>
+                        </tr>
+                        <tr>
+                            <td>100 Metros Livres</td>
+                            <td>&#129353 Medalha de Bronze</td>
+                            <td>47:67</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                    <p>
+                        <b>Londres, 2012</b>
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Evento</th>
+                            <th>Resultados</th>
+                            <th>Tempo</th>
+                        </tr>
+                        <tr>
+                            <td>50 Metros Livres</td>
+                            <td>&#129353 Medalha de Bronze</td>
+                            <td>21:59</td>
+                        </tr>
+                    </table>
+                    <p>
+                        <b>&copy Todas as teblas acima foram retiradas da Wikipédia.</b>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Vitória de César Cielo - 50 Metros livres | Pequim, 2008</h3>
+                </header>
+                <article>
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/EnQfElxOXAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 960px; height: 470px;"></iframe>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Redes Sociais</h3>
+                </header>
+                <article>
+                    <p>
+                        <img src="Imagens/instagram.png" height="15" width="14"><a href="https://www.instagram.com/cesarcielof/" target="_blank" style="color: black; text-decoration: none;"><b> cesarcielof</b></a>
+                        <br>
+                            <br>
+                        <img src="Imagens/facebook.png" height="15" width="14"><a href="https://pt-pt.facebook.com/CesarCielo" target="_blank" style="color: black; text-decoration: none;"><b> Cesar Cielo</b></a>
+                        <br>
+                            <br>
+                        <img src="Imagens/twitter.png" height="15" width="14"><a href="https://twitter.com/CesarCielo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" style="color: black; text-decoration: none;"><b> CesarCielo</b></a>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy Website desenvolvido por: André Campos - 11ºD</p>
+            <p>Caso pretenda mais informações relativamente a este desporto, o <a href="https://fpnatacao.pt" style="color: white;text-decoration: underline;"><b>site oficial da FPN</b></a> será o melhor sítio para tirar as suas dúvidas.</p>
+        </footer>
+    </body>
+    </head>
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Natação</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+        <style>
+            body{
+                width: 1000px;
+                margin: 0 auto;
+                background-color: #f0f0f0;
+                font-family: Helvetica,Arial,Sans-Serif;
+                font-size: 15px;
+            }
+
+            .banner{
+                background-image: url('Imagens/costas.jpg');
+                color: white;
+                padding: 5px 30px;
+                font-size: 35px;
+                font-weight: bold;
+                font-family: verdana;
+                -webkit-text-stroke-width: 3px;
+                -webkit-text-stroke-color: #1C1C1C;
+                text-align: center;
+            }
+
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            li{
+                float: left;
+            }
+
+            li a{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+            li a:hover{
+                background-color: #1C1C1C;
+            }
+
+            li a, .dropbtn{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover, .dropdown:hover .dropbtn{
+                background-color: #111;
+            }
+
+            nav{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+            }
+            
+            .dropdown{
+                display: inline-block;
+            }
+
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: #00008B;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+
+            .dropdown-content a{
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover{background-color: #1C1C1C}
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+
+            section{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+                
+            }
+
+            header{
+                color: white;
+            }
+
+            article{
+                background-color: white;
+                margin-top: 5px;
+                padding: 10px 15px;
+            }
+
+            main{
+                width: 1000px;
+                float: left;
+                margin-bottom: 10px;
+            }
+
+            aside{
+                background-color: #bbbbbb;
+                width: 220px;
+                height: 620px;
+                float: right;
+                text-align: center;
+                padding: 20px;
+                margin-top: 10px;
+            }
+
+            footer{
+                clear: both;
+                background-color: #1C1C1C;
+                color: white;
+                padding: 5px 20px;
+            }
+
+            h3{
+                padding-left: 6px;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="banner"> 
+            <h1>Costas</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Página Inicial</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Estilos</a>
+                    <div class="dropdown-content">
+                        <a href="crawl.html">Crawl</a>
+                        <hr>
+                        <a href="costas.html">Costas</a>
+                        <hr>
+                        <a href="brucos.html">Bruços</a>
+                        <hr>
+                        <a href="mariposa.html">Mariposa</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Modalidades</a>
+                    <div class="dropdown-content">
+                        <a href="natacao_pura.html">Natação Pura</a>
+                        <hr>
+                        <a href="polo_aquatico.html">Polo Aquático</a>
+                        <hr>
+                        <a href="natacao_artistica.html">Natação Artística</a>
+                        <hr>
+                        <a href="natacao_adaptada.html">Natação Adaptada</a>
+                        <hr>
+                        <a href="aguas_abertas.html">Águas Abertas</a>
+                        <hr>
+                        <a href="saltos.html">Saltos</a>
+                    </div>
+                <li class="dropdown">
+                    <a href="" class="dropbtn">Campeões</a>
+                    <div class="dropdown-content">
+                        <a href="michael_phelps.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Michael Phelps</a>
+                        <hr>
+                        <a href="caeleb_dressel.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Caeleb Dressel</a>
+                        <hr>
+                        <a href="cesar_ciello.html"><img src="Imagens/brasil.jpg" height="12" width="14">  César Cielo</a>
+                        <hr>
+                        <a href="emma_mckeon.html"><img src="Imagens/australia.jpg" height="12" width="14">  Emma McKeon</a>
+                        <hr>
+                        <a href="katinka_hosszu.html"><img src="Imagens/hungria.jpg" height="12" width="14">  Katinka Hosszú</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="fpn.html">FPN</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <header>
+                    <h3>O que é?</h3>
+                </header>
+                <article>
+                    <p>
+                    <div>
+                        <img src="Imagens/costas.gif" style="float: right; width: 300px; height: 170px; padding-left: 10px; border-radius: 5px;">
+                    </div>
+                       O nado costas consiste em técnicas muito semelhantes ao Crawl, mas de forma invertida.
+                       <br>
+                       Neste estilo também há a batida de pernas alternadas e o movimento giratório dos braços, tudo isto de barriga para cima.
+                       <br>
+                       <br>
+                       <b>História</b>
+                       <br>
+                       Não se sabe ao certo quando o homem começou a nadar de costas, mas em 1794, Oronzio de Bernadi descreveu um estilo com braçadas de costas.
+                       <br>
+                       A partir de 1912, foi quando os nadadores começaram a praticar este estilo com mais velocidade e esta evolução deve-se a Harry Hebner, o nadador norte americano que ganhou os jogos de Estocolmo, em 1912.
+                       <br>
+                       <br>
+                       <b>Posição do corpo</b>
+                       <br>
+                       Numa visão lateral, deve-se ver o peito do nadador numa posição plana e horizontal ao nível da água (A cabeça deve estar alinhada com o corpo).
+                       <br>
+                       <br>
+                       O batimento das pernas no nado costas é realizado de forma alternada num plano vertical. Deve-se dar um pequeno impulso no batimento para cima e de seguida, relaxar os tornozelos no batimento para baixo.
+                       <br>
+                       Os joelhos permanecem sempre debaixo de água durante a execução deste estilo, evitando o movimento de bicicleta.
+                       <br>
+                       A função do batimento das pernas é estabilizar e equilibrar o nado.
+                       <br>
+                       <br>
+                       A posição dos braços também é alternada, assim como no nado crawl. Esta divide-se em duas fases: A fase propulsiva e a fase de recuperação.
+                       <br>
+                       <br>
+                    <div>
+                        <img src="Imagens/posicao_costas.jpg" style="float: left; width: 300px; height: 170px; padding-right: 10px; border-radius: 5px;">
+                    </div>
+                       <b>Fase propulsiva -</b> Nesta fase, também conhecida como fase subaquática, o movimento começa com o braço estendido e dentro da água, alinhado à frente do ombro e com o punho ligeiramente dobrado.
+                       <br>
+                       A rotação começa com a trajetória da mão para baixo, saindo da linha do ombro.
+                       <br>
+                       <br>
+                       <b>Fase de recuperação -</b> A fase de recuperação é a rotação feita pelo braço fora de água.
+                       <br>
+                       Nesta rotação, o polegar fica sempre virado para cima e os braços rodam verticalmente e próximo do corpo. No final da rotação, a mão irá estar virada para fora. Os braços devem manter uma diferença de 180º entre si.
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Vídeo explicativo - Como nadar costas?</h3>
+                </header>
+                <article>
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/9aEewSacB8s" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 960px; height: 470px;"></iframe>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Viragem ou cambalhota</h3>
+                </header>
+                <article>
+                    <p>
+                        Na viragem do nado costas, o nadador deve saber quantas braças dá das bandeiras até à parede e, uma braçada antes de tocar na parede deve girar o seu corpo e fazer a cambalhota igual ao nado crawl.
+                        <br>
+                        <br>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DeLrnPyQmx4" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 960px; height: 470px;"></iframe>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy Website desenvolvido por: André Campos - 11ºD</p>
+            <p>Caso pretenda mais informações relativamente a este desporto, o <a href="https://fpnatacao.pt" style="color: white;text-decoration: underline;"><b>site oficial da FPN</b></a> será o melhor sítio para tirar as suas dúvidas.</p>
+        </footer>
+
+    </body>
+</html>

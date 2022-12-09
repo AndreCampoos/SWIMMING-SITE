@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Natação</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="icone.ico">
+
+        <style>
+            body{
+                width: 1000px;
+                margin: 0 auto;
+                background-color: #f0f0f0;
+                font-family: Helvetica,Arial,Sans-Serif;
+                font-size: 15px;
+            }
+
+            .banner{
+                background-image: url('caeleb_dressel.jpg');
+                color: white;
+                padding: 5px 30px;
+                font-size: 35px;
+                font-weight: bold;
+                font-family: verdana;
+                -webkit-text-stroke-width: 3px;
+                -webkit-text-stroke-color: #1C1C1C;
+                text-align: center;
+            }
+
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            li{
+                float: left;
+            }
+
+            li a{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+            li a:hover{
+                background-color: #1C1C1C;
+            }
+
+            li a, .dropbtn{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover, .dropdown:hover .dropbtn{
+                background-color: #111;
+            }
+
+            nav{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+            }
+            
+            .dropdown{
+                display: inline-block;
+            }
+
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: #00008B;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+
+            .dropdown-content a{
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover{background-color: #1C1C1C}
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+
+            section{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+                
+            }
+
+            header{
+                color: white;
+            }
+
+            article{
+                background-color: white;
+                margin-top: 5px;
+                padding: 10px 15px;
+            }
+
+
+            main{
+                width: 1000px;
+                float: left;
+                margin-bottom: 10px;
+            }
+
+            aside{
+                background-color: #bbbbbb;
+                width: 220px;
+                height: 620px;
+                float: right;
+                text-align: center;
+                padding: 20px;
+                margin-top: 10px;
+            }
+
+            footer{
+                clear: both;
+                background-color: #1C1C1C;
+                color: white;
+                padding: 5px 20px;
+            }
+
+            h3{
+                padding-left: 6px;
+            }
+
+            table, td, th{
+                border: 1px solid black;
+            }
+
+            table{
+                width: 960px;
+                border-collapse: collapse;
+            }
+
+            th{
+                height: 40px;
+                width: 300px;
+                color: white;
+                background-color: #00008B;
+            }
+
+            tr:hover{
+                background-color: #00008B;
+                color: white;
+            }
+        </style>
+    <head>
+    <body>
+        <header class="banner"> 
+            <h1>Caeleb Dressel</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Página Inicial</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Estilos</a>
+                    <div class="dropdown-content">
+                        <a href="crawl.html">Crawl</a>
+                        <hr>
+                        <a href="costas.html">Costas</a>
+                        <hr>
+                        <a href="brucos.html">Bruços</a>
+                        <hr>
+                        <a href="mariposa.html">Mariposa</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Modalidades</a>
+                    <div class="dropdown-content">
+                        <a href="natacao_pura.html">Natação Pura</a>
+                        <hr>
+                        <a href="polo_aquatico.html">Polo Aquático</a>
+                        <hr>
+                        <a href="natacao_artistica.html">Natação Artística</a>
+                        <hr>
+                        <a href="natacao_adaptada.html">Natação Adaptada</a>
+                        <hr>
+                        <a href="aguas_abertas.html">Águas Abertas</a>
+                        <hr>
+                        <a href="saltos.html">Saltos</a>
+                    </div>
+                <li class="dropdown">
+                    <a href="" class="dropbtn">Campeões</a>
+                    <div class="dropdown-content">
+                        <a href="michael_phelps.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Michael Phelps</a>
+                        <hr>
+                        <a href="caeleb_dressel.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Caeleb Dressel</a>
+                        <hr>
+                        <a href="cesar_ciello.html"><img src="Imagens/brasil.jpg" height="12" width="14">  César Cielo</a>
+                        <hr>
+                        <a href="emma_mckeon.html"><img src="Imagens/australia.jpg" height="12" width="14">  Emma McKeon</a>
+                        <hr>
+                        <a href="katinka_hosszu.html"><img src="Imagens/hungria.jpg" height="12" width="14">  Katinka Hosszú</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="fpn.html">FPN</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Biografia</h3>
+                </header>
+                <article>
+                    <p>
+                        <div>
+                            <img src="caeleb.jpg" style="float: right; width: 250px; height: 253px; padding-left: 10px; border-radius: 5px;">
+                        </div>
+                        Caeleb Remel Dressel é um nadador profissional natural de Green Cove Springs, na Florida, Estados Unidos.
+                        <br>
+                        Nascido a 16 de agosto de 1996, este compete desde 2016 pela seleção americana de natação e desde 2019 pelo Cali Condors, clube profissional de natação de San Francisco, na California.
+                        <br>
+                            <br>
+                        Caeleb é conhecido como um dos melhores nadadores do mundo. Medalhista olímpico com apenas 19 anos, aos 23 já tinha conseguido mais de 10 medalhas de ouro no Mundial de Natação, consquistadas em apenas duas edições.
+                        <br>
+                        O norte-americano é dono de mais de 10 recordes mundiais entre piscinas curtas e normais e outros 15 recordes nacionais.
+                        <br>
+                        O maior destaque deste atleta, foi ter ultrapassado o recorde de Michael Phelps nos 100 M Mariposa, completando a prova em apenas 49.50s.
+                        <br>
+                            <br>
+                        Caeleb Dressel é principalmente um nadador de velocidade, mas muito versátil. Posto isto, podemos concluir que este costuma competir em provas de velocidade (50m e 100m) nos nados livre e Mariposa.
+                        <br>
+                            <br>
+                                <br>
+                        <div>
+                            <img src="dressel.jpg" style="float: left; width: 300px; height: 170px; padding-right: 10px; border-radius: 5px;">
+                        </div>
+                        Caeleb teve o seu primeiro contacto com a natação aos 5 anos de idade, quando assistia ao seu irmão a competir e com 12 anos, este já tinha decidido que queria seguir na modalidade e tentar a vida como atleta.
+                        <br>
+                            <br>
+                        Em 2013, mesmo tendo conquistado quartro medalhas e uma delas de ouro, o nadador sentiu-se fracassado e afastou-se do desporto por 6 meses.
+                        <br>
+                            <br>
+                        No seu regresso ás competições, apoiou-se muito na sua família e na religião e veio a mudar o rumo da sua carreira ao comprometer-se com a Universidade da Flórida (a mesma onde o seu pai havia estudado), especializada em provas de média e longa distância.
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Principais consquistas olímpicas</h3>
+                </header>
+                <article>
+                    <p>
+                        <b>Rio de Janeiro, 2016</b>
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Evento</th>
+                            <th>Resultado</th>
+                        </tr>
+                        <tr>
+                            <td>4 x 100 Metros Livres</td>
+                            <td>&#129351 Medalha de Ouro</td>
+                        </tr>
+                        <tr>
+                            <td>4 x 200 Metros Livres</td>
+                            <td>&#129352 Medalha de Prata</td>
+                        </tr>
+                        <tr>
+                            <td>4 x 100 Metros Estilos</td>
+                            <td>&#129352 Medalha de Prata</td>
+                        </tr>
+                        <tr>
+                            <td>200 Metros Livres</td>
+                            <td>&#129353 Medalha de Bronze</td>
+                        </tr>
+                    </table>
+                    <br>
+                        <br>
+                    <p>
+                        <b>Tóquio, 2020</b>
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Evento</th>
+                            <th>Resultado</th>
+                        </tr>
+                        <tr>
+                            <td>4 x 100 Metros Livres</td>
+                            <td>&#129351 Medalha de Ouro</td>
+                        </tr>
+                        <tr>
+                            <td>100 Metros Livres</td>
+                            <td>&#129351 Medalha de Ouro</td>
+                        </tr>
+                        <tr>
+                            <td>50 Metros Livres</td>
+                            <td>&#129351 Medalha de Ouro</td>
+                        </tr>
+                        <tr>
+                            <td>4 x 100 Metros Estilos</td>
+                            <td>&#129351 Medalha de Ouro</td>
+                        </tr>
+                        <tr>
+                            <td>100 Metros Mariposa</td>
+                            <td>&#129353 Medalha de Bronze</td>
+                        </tr>
+                        <tr>
+                            <td>4 x 100 Metros Estilos Mistos</td>
+                            <td>&#129353 Medalha de Bronze</td>
+                        </tr>
+                        <tr>
+                            <td>100 Metros Mariposa</td>
+                            <td>&#129353 Medalha de Bronze</td>
+                        </tr>
+                    </table>
+                    <p>
+                        <b>&copy Todas as tabelas acima foram retiradas da Wikipédia.</b>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Vitória de Caeleb Dressel - 50 Metros livres | Tóquio, 2020</h3>
+                </header>
+                <article>
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/yRm_c_WbYa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 960px; height: 470px;"></iframe>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Redes Sociais</h3>
+                </header>
+                <article>
+                    <p>
+                        <img src="Imagens/instagram.png" height="15" width="14"><a href="https://www.instagram.com/emmamckeon/" target="_blank" style="color: black; text-decoration: none;"><b> emmamckeon
+                        </b></a>
+                        <br>
+                            <br>
+                        <img src="Imagens/facebook.png" height="15" width="14"><a href="https://www.facebook.com/caelebdresseloly/" target="_blank" style="color: black; text-decoration: none;"><b> Caeleb Dressel</b></a>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy Website desenvolvido por: André Campos - 11ºD</p>
+            <p>Caso pretenda mais informações relativamente a este desporto, o <a href="https://fpnatacao.pt" style="color: white;text-decoration: underline;"><b>site oficial da FPN</b></a> será o melhor sítio para tirar as suas dúvidas.</p>
+        </footer>
+    </body>
+    </head>
+</html>

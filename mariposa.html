@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Natação</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="icone.ico">
+
+        <style>
+            body{
+                width: 1000px;
+                margin: 0 auto;
+                background-color: #f0f0f0;
+                font-family: Helvetica,Arial,Sans-Serif;
+                font-size: 15px;
+            }
+
+            .banner{
+                background-image: url('Imagens/mariposa.jpg');
+                color: white;
+                padding: 5px 30px;
+                font-size: 35px;
+                font-weight: bold;
+                font-family: verdana;
+                -webkit-text-stroke-width: 3px;
+                -webkit-text-stroke-color: #1C1C1C;
+                text-align: center;
+            }
+
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            li{
+                float: left;
+            }
+
+            li a{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+            li a:hover{
+                background-color: #1C1C1C;
+            }
+
+            li a, .dropbtn{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover, .dropdown:hover .dropbtn{
+                background-color: #111;
+            }
+
+            nav{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+            }
+            
+            .dropdown{
+                display: inline-block;
+            }
+
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: #00008B;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+
+            .dropdown-content a{
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover{background-color: #1C1C1C}
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+
+            section{
+                background-color: #00008B;
+                padding: 5px;
+                margin-top: 10px;
+                
+            }
+
+            header{
+                color: white;
+            }
+
+            article{
+                background-color: white;
+                margin-top: 5px;
+                padding: 10px 15px;
+            }
+
+            main{
+                width: 1000px;
+                float: left;
+                margin-bottom: 10px;
+            }
+
+            aside{
+                background-color: #bbbbbb;
+                width: 220px;
+                height: 620px;
+                float: right;
+                text-align: center;
+                padding: 20px;
+                margin-top: 10px;
+            }
+
+            footer{
+                clear: both;
+                background-color: #1C1C1C;
+                color: white;
+                padding: 5px 20px;
+            }
+
+            h3{
+                padding-left: 6px;
+            }
+
+            .center{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="banner"> 
+            <h1>Mariposa</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Página Inicial</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Estilos</a>
+                    <div class="dropdown-content">
+                        <a href="crawl.html">Crawl</a>
+                        <hr>
+                        <a href="costas.html">Costas</a>
+                        <hr>
+                        <a href="brucos.html">Bruços</a>
+                        <hr>
+                        <a href="mariposa.html">Mariposa</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Modalidades</a>
+                    <div class="dropdown-content">
+                        <a href="natacao_pura.html">Natação Pura</a>
+                        <hr>
+                        <a href="polo_aquatico.html">Polo Aquático</a>
+                        <hr>
+                        <a href="natacao_artistica.html">Natação Artística</a>
+                        <hr>
+                        <a href="natacao_adaptada.html">Natação Adaptada</a>
+                        <hr>
+                        <a href="aguas_abertas.html">Águas Abertas</a>
+                        <hr>
+                        <a href="saltos.html">Saltos</a>
+                    </div>
+                <li class="dropdown">
+                    <a href="" class="dropbtn">Campeões</a>
+                    <div class="dropdown-content">
+                        <a href="michael_phelps.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Michael Phelps</a>
+                        <hr>
+                        <a href="caeleb_dressel.html"><img src="Imagens/estados_unidos.jpg" height="12" width="14">  Caeleb Dressel</a>
+                        <hr>
+                        <a href="cesar_ciello.html"><img src="Imagens/brasil.jpg" height="12" width="14">  César Cielo</a>
+                        <hr>
+                        <a href="emma_mckeon.html"><img src="Imagens/australia.jpg" height="12" width="14">  Emma McKeon</a>
+                        <hr>
+                        <a href="katinka_hosszu.html"><img src="Imagens/hungria.jpg" height="12" width="14">  Katinka Hosszú</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="fpn.html">FPN</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <header>
+                    <h3>O que é?</h3>
+                </header>
+                <article>
+                    <p>
+                        <div>
+                            <img src="Imagens/mariposa3.jpg" style="float: left; width: 300px; height: 200px; padding-right: 10px; border-radius: 5px;">
+                        </div>
+                        <br>
+                            <br>
+                        O estilo mariposa, também conhecido como borboleta é um estilo que consiste em nadar simultaneamente com os membros superiores e inferiores.
+                        <br>
+                        Este é o estilo mais rápido a seguir ao crawl.
+                        <br>
+                            <br>
+                        Esta é uma das técnicas mais exigentes a nível físico, uma vez que requer mais força e energia.
+                        <br>
+                        Neste estilo, o nadador posiciona-se de barriga para baixo e roda os braços lateralmente enquanto dá pernadas em simultâneo. Por estes movimentos, a mariposa é semelhante ao modo de nadar dos golfinhos.
+                        <br>
+                            <br>
+                                <br>
+                                    <br>
+                                        <br>
+                        <div>
+                            <img src="Imagens/mariposa.gif" style="float: right; width: 120px; border-radius: 5px;">
+                        </div>
+                        <b>Respiração</b>
+                        <br>
+                        No nado mariposa, o nadador levanta o queixo no começo da braçada para respirar.
+                        <br>
+                        Normalmente dá-se duas pernadas e de seguida faz-se o movimento rotatório dos braços, o que irá permitir a respiração.
+                        <br>
+                            <br>
+
+                        <b>Saída</b>
+                        <br>
+                        <div>
+                            <img src="Imagens/mariposa2.gif" style="float: right;  width: 120px; border-radius: 5px;">
+                        </div>
+                        A saída, ou arrancada, é realizada do bloco de partida. Após o mergulho, o nadador mantém os braços à frente e realizada uma forte batida de pernas de forma ondulada. 
+                        <br>
+                            <br>
+                                <br>
+                                    <br>   
+                                        <br>
+                        <b>Viragem</b>
+                        <br>
+                        Assim como no nado bruços, na mariposa a viragem não se realiza com uma cambalhota.
+                        <br>
+                        Para fazer a viragem, o nadador deve tocar na parede com as duas mãos ao mesmo tempo. Depois de tocar na borda com as duas mãos, o braço do lado que o corpo irá virar é lançado de volta à piscina com o cotovelo dobrado. A outra mão
+                        empurra a borda, o que irá fazer com que a cabeça e os ombros virem para a direção oposta, ao mesmo tempo que os joelhos são flexionados e trazidos por baixo do corpo até que os pés toquem na borda.
+                        <br>
+                            <br>
+                        <img src="Imagens/mariposa4.png" class="center" style="border-radius: 5px;">
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <main>
+            <section>
+                <header>
+                    <h3>Vídeo explicativo - Como nadar Mariposa?</h3>
+                </header>
+                <article>
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dt92pTsf7xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 960px; height: 470px;"></iframe>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy Website desenvolvido por: André Campos - 11ºD</p>
+            <p>Caso pretenda mais informações relativamente a este desporto, o <a href="https://fpnatacao.pt" target="_blank" style="color: white;text-decoration: underline;"><b>site oficial da FPN</b></a> será o melhor sítio para tirar as suas dúvidas.</p>
+        </footer>
+
+    </body>
+</html>
